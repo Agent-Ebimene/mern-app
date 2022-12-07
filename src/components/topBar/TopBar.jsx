@@ -1,4 +1,3 @@
-import React from "react";
 import "./topBar.css";
 import personIcon from "../../assets/images/person-icon.jpg";
 
