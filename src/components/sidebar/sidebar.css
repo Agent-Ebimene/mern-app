@@ -27,8 +27,11 @@
   text-align: center;
 }
 
-.sidebarItem > img {
+.sidebarItem img {
   margin-top: 15px;
+  height: 150px;
+  width: 250px;
+  border-radius: 5px;
 }
 .sidebarItem > p {
   padding: 30px;
@@ -48,4 +51,13 @@
 .sidebarSocial {
   margin-top: 15px;
   width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebarIcon {
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
 }

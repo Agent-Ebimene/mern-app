@@ -1,12 +1,12 @@
 import "./sidebar.css";
-import personIcon from "../../assets/images/person-icon.jpg";
+import sidebarIcon from "../../assets/images/blog-img-1.jpg";
 
 const SideBar = () => {
   return (
     <div className="sidebar">
       <article className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
-        <img src={personIcon} alt=""></img>
+        <img src={sidebarIcon} alt=""></img>
         <p>
           I am an Engineer with an intensive focus in philosophical thinking and
           Mathematics.I dedicated alot of time to understand Engineering
